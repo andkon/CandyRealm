@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256E2A65EFF4CE2D69CEACCD /* Pods_CandyRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D0E7A42F44B66779E328F5 /* Pods_CandyRealmTests.framework */; };
+		6A57449232B7959E55120BC3 /* Pods_CandyRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BEC0A395080BF1B65AD6A7 /* Pods_CandyRealm.framework */; };
+		9E4ECD6499E6401C4A529F4B /* Pods_CandyRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CED6BF31E4D75A6D62327E1 /* Pods_CandyRealmUITests.framework */; };
 		E16D4D7F1E984B480088E8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D4D7E1E984B480088E8E1 /* AppDelegate.swift */; };
 		E16D4D811E984B480088E8E1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E16D4D801E984B480088E8E1 /* GameScene.sks */; };
 		E16D4D831E984B480088E8E1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E16D4D821E984B480088E8E1 /* Actions.sks */; };
@@ -17,6 +20,8 @@
 		E16D4D8F1E984B480088E8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D4D8D1E984B480088E8E1 /* LaunchScreen.storyboard */; };
 		E16D4D9A1E984B480088E8E1 /* CandyRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D4D991E984B480088E8E1 /* CandyRealmTests.swift */; };
 		E16D4DA51E984B480088E8E1 /* CandyRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D4DA41E984B480088E8E1 /* CandyRealmUITests.swift */; };
+		E16D4DB31E984B710088E8E1 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E16D4DB21E984B710088E8E1 /* Sprites.atlas */; };
+		E16D4DB51E999D4B0088E8E1 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D4DB41E999D4B0088E8E1 /* Cookie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A9F2D5811AF0E6D678AC74 /* Pods-CandyRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealm/Pods-CandyRealm.release.xcconfig"; sourceTree = "<group>"; };
+		3CED6BF31E4D75A6D62327E1 /* Pods_CandyRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F06D255404D2B76AF95545B /* Pods-CandyRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealm/Pods-CandyRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		50BEC0A395080BF1B65AD6A7 /* Pods_CandyRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DD0D954DA232B17E69F6C4 /* Pods-CandyRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealmTests/Pods-CandyRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0FC00359DE80FE2A57F3E9 /* Pods-CandyRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealmUITests/Pods-CandyRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D41D036DB61AB25FD4D57F11 /* Pods-CandyRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealmTests/Pods-CandyRealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4D0E7A42F44B66779E328F5 /* Pods_CandyRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAB1D0B1174BF7AE81489A5 /* Pods-CandyRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyRealmUITests/Pods-CandyRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E16D4D7B1E984B470088E8E1 /* CandyRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D4D7E1E984B480088E8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16D4D801E984B480088E8E1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +67,8 @@
 		E16D4DA01E984B480088E8E1 /* CandyRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D4DA41E984B480088E8E1 /* CandyRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRealmUITests.swift; sourceTree = "<group>"; };
 		E16D4DA61E984B480088E8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16D4DB21E984B710088E8E1 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		E16D4DB41E999D4B0088E8E1 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A57449232B7959E55120BC3 /* Pods_CandyRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256E2A65EFF4CE2D69CEACCD /* Pods_CandyRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4ECD6499E6401C4A529F4B /* Pods_CandyRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11EBBC8CCD78D7290F6C50CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50BEC0A395080BF1B65AD6A7 /* Pods_CandyRealm.framework */,
+				D4D0E7A42F44B66779E328F5 /* Pods_CandyRealmTests.framework */,
+				3CED6BF31E4D75A6D62327E1 /* Pods_CandyRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E377DDC4EE3D11D6D458127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F06D255404D2B76AF95545B /* Pods-CandyRealm.debug.xcconfig */,
+				15A9F2D5811AF0E6D678AC74 /* Pods-CandyRealm.release.xcconfig */,
+				83DD0D954DA232B17E69F6C4 /* Pods-CandyRealmTests.debug.xcconfig */,
+				D41D036DB61AB25FD4D57F11 /* Pods-CandyRealmTests.release.xcconfig */,
+				CF0FC00359DE80FE2A57F3E9 /* Pods-CandyRealmUITests.debug.xcconfig */,
+				DAAB1D0B1174BF7AE81489A5 /* Pods-CandyRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E16D4D721E984B470088E8E1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +129,8 @@
 				E16D4D981E984B480088E8E1 /* CandyRealmTests */,
 				E16D4DA31E984B480088E8E1 /* CandyRealmUITests */,
 				E16D4D7C1E984B470088E8E1 /* Products */,
+				3E377DDC4EE3D11D6D458127 /* Pods */,
+				11EBBC8CCD78D7290F6C50CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +147,12 @@
 		E16D4D7D1E984B470088E8E1 /* CandyRealm */ = {
 			isa = PBXGroup;
 			children = (
+				E16D4DB21E984B710088E8E1 /* Sprites.atlas */,
 				E16D4D7E1E984B480088E8E1 /* AppDelegate.swift */,
 				E16D4D801E984B480088E8E1 /* GameScene.sks */,
 				E16D4D821E984B480088E8E1 /* Actions.sks */,
 				E16D4D841E984B480088E8E1 /* GameScene.swift */,
+				E16D4DB41E999D4B0088E8E1 /* Cookie.swift */,
 				E16D4D861E984B480088E8E1 /* GameViewController.swift */,
 				E16D4D881E984B480088E8E1 /* Main.storyboard */,
 				E16D4D8B1E984B480088E8E1 /* Assets.xcassets */,
@@ -141,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D4DA91E984B480088E8E1 /* Build configuration list for PBXNativeTarget "CandyRealm" */;
 			buildPhases = (
+				76C7A654FA0806E869B02150 /* [CP] Check Pods Manifest.lock */,
 				E16D4D771E984B470088E8E1 /* Sources */,
 				E16D4D781E984B470088E8E1 /* Frameworks */,
 				E16D4D791E984B470088E8E1 /* Resources */,
+				F83DBC1287FF8F7586708F99 /* [CP] Embed Pods Frameworks */,
+				EA91BB3C99414649E41B52E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D4DAC1E984B480088E8E1 /* Build configuration list for PBXNativeTarget "CandyRealmTests" */;
 			buildPhases = (
+				A455AC13652C7EFC7EFFAF7F /* [CP] Check Pods Manifest.lock */,
 				E16D4D911E984B480088E8E1 /* Sources */,
 				E16D4D921E984B480088E8E1 /* Frameworks */,
 				E16D4D931E984B480088E8E1 /* Resources */,
+				AC6921467FD5D0A5EDF063C3 /* [CP] Embed Pods Frameworks */,
+				2A958B68ADAAF18491F27BEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D4DAF1E984B480088E8E1 /* Build configuration list for PBXNativeTarget "CandyRealmUITests" */;
 			buildPhases = (
+				CA7ED58B77DDC0315D109395 /* [CP] Check Pods Manifest.lock */,
 				E16D4D9C1E984B480088E8E1 /* Sources */,
 				E16D4D9D1E984B480088E8E1 /* Frameworks */,
 				E16D4D9E1E984B480088E8E1 /* Resources */,
+				35726AD715832B00503601F2 /* [CP] Embed Pods Frameworks */,
+				7135C134863F8DDFDB25AB18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16D4DB31E984B710088E8E1 /* Sprites.atlas in Resources */,
 				E16D4D8A1E984B480088E8E1 /* Main.storyboard in Resources */,
 				E16D4D811E984B480088E8E1 /* GameScene.sks in Resources */,
 				E16D4D8C1E984B480088E8E1 /* Assets.xcassets in Resources */,
@@ -268,12 +324,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A958B68ADAAF18491F27BEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealmTests/Pods-CandyRealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35726AD715832B00503601F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealmUITests/Pods-CandyRealmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7135C134863F8DDFDB25AB18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealmUITests/Pods-CandyRealmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C7A654FA0806E869B02150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A455AC13652C7EFC7EFFAF7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6921467FD5D0A5EDF063C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealmTests/Pods-CandyRealmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7ED58B77DDC0315D109395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA91BB3C99414649E41B52E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealm/Pods-CandyRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F83DBC1287FF8F7586708F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyRealm/Pods-CandyRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E16D4D771E984B470088E8E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E16D4D851E984B480088E8E1 /* GameScene.swift in Sources */,
+				E16D4DB51E999D4B0088E8E1 /* Cookie.swift in Sources */,
 				E16D4D871E984B480088E8E1 /* GameViewController.swift in Sources */,
 				E16D4D7F1E984B480088E8E1 /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +618,7 @@
 		};
 		E16D4DAA1E984B480088E8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F06D255404D2B76AF95545B /* Pods-CandyRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6PAV6JMNM;
@@ -436,6 +632,7 @@
 		};
 		E16D4DAB1E984B480088E8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A9F2D5811AF0E6D678AC74 /* Pods-CandyRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6PAV6JMNM;
@@ -449,6 +646,7 @@
 		};
 		E16D4DAD1E984B480088E8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DD0D954DA232B17E69F6C4 /* Pods-CandyRealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +662,7 @@
 		};
 		E16D4DAE1E984B480088E8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41D036DB61AB25FD4D57F11 /* Pods-CandyRealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +678,7 @@
 		};
 		E16D4DB01E984B480088E8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0FC00359DE80FE2A57F3E9 /* Pods-CandyRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = W6PAV6JMNM;
@@ -493,6 +693,7 @@
 		};
 		E16D4DB11E984B480088E8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAB1D0B1174BF7AE81489A5 /* Pods-CandyRealmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = W6PAV6JMNM;
@@ -524,6 +725,7 @@
 				E16D4DAB1E984B480088E8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16D4DAC1E984B480088E8E1 /* Build configuration list for PBXNativeTarget "CandyRealmTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +734,7 @@
 				E16D4DAE1E984B480088E8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16D4DAF1E984B480088E8E1 /* Build configuration list for PBXNativeTarget "CandyRealmUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +743,7 @@
 				E16D4DB11E984B480088E8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
